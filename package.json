@@ -1,0 +1,24 @@
+{
+  "name": "webpack5-demo-practice",
+  "version": "1.0.0",
+  "description": "练习使用webpack5的API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireWinters/webpack5-demo-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireWinters/webpack5-demo-practice/issues"
+  },
+  "homepage": "https://github.com/fireWinters/webpack5-demo-practice#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
