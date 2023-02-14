@@ -11,6 +11,10 @@ rules:[
     test:/\.css$/i,
     use:['style-loader','css-loader'],
     },
+    {
+    test:/\.(png|svg|jpg|jpeg|gif|tif|tiff)$/i,
+    type:'asset/resource',
+    },
 ]
 },
 }
