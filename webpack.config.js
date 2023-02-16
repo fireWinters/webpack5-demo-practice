@@ -16,9 +16,18 @@ rules:[
     type:'asset/resource',
     },
     {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource',
-      },
+      test: /\.(woff|woff2|eot|ttf|otf)$/i,
+      type: 'asset/resource',
+    },
+    // 处理CSV、TSV 和 XML文件
+    {
+      test: /\.(csv|tsv)$/i,
+      use: ['csv-loader'],
+    },
+    {
+      test: /\.xml$/i,
+      use: ['xml-loader'],
+    },
 ]
 },
 }
