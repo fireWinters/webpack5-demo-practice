@@ -13,6 +13,7 @@ plugins:[
 output:{
 path:path.resolve(__dirname,'dist'),
 // filename:'bundle.js'
-filename:'[name].bundle.js'
+filename:'[name].bundle.js',
+clean:true //清理dist文件夹
 },
 }
